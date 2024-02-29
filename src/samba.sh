@@ -6,7 +6,7 @@ set -Eeuo pipefail
 SHARE="$STORAGE/shared"
 
 mkdir -p "$SHARE"
-chmod -R 777 "$SHARE"
+#chmod -R 777 "$SHARE"
 
 SAMBA="/etc/samba/smb.conf"
 
